@@ -76,6 +76,19 @@ h1, h2 {
   padding: 20px;
 }
 
+#footer {
+  margin-top: 50px;
+  text-align: right;
+  color: var(--accent);
+}
+
+#footer a {
+  margin: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--accent);
+}
+
 @media screen and (max-width: 1000px) {
   body {
     grid-template-areas:
